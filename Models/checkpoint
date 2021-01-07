@@ -1,0 +1,2 @@
+model_checkpoint_path: "wind_power_weights"
+all_model_checkpoint_paths: "wind_power_weights"
