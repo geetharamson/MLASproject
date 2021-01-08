@@ -8,8 +8,6 @@ In this project you must create a web service that uses machine learning to make
 2. Python script that runs a web service based on the model, as above.
 3. Dockerfile to build and run the web service in a container.
 
-###
-
 ## HOW TO DOWNLOAD THE REPOSITORY
 * Go to GitHub.
 * Go to my repository: [:link:GitHub](https://github.com/geetharamson/MLASproject.git)
@@ -31,6 +29,8 @@ ___________________________
 + To change between edit and read mode at any time press the ESC key.
 + If you wish t run the entire notebook click Kernel in the toolbar at the top of the screen and then click Restart and run all. The notebook will refresh and all code cells will be executed from top to bottom.
 + When you have finished viewing the jupyter notebook close the web browser and return to the command line. Press Ctrl + C on the command line to kill the program.
+
+       https://github.com/geetharamson/MLASproject/blob/main/Project.ipynb  is the direct link to my jupyternotebook.
 ______________________________________________________________
 ## Files in my repository
  
