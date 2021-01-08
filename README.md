@@ -104,17 +104,29 @@ Once the container is running, access the web service on your localhost at http:
  ![neuralnetwork](https://github.com/geetharamson/MLASproject/blob/main/Images/Neuralnetwork.png)
  
 # :memo: References
+
 :one:[Anaconda distribution in python](https://www.anaconda.com/products/individual)
+
 :two:[Python](https://www.python.org/)
+
 :three:[Numpy](https://numpy.org/)
+
 :four:[Scipy](https://www.scipy.org/)
+
 :five:[Pandas](https://pandas.pydata.org/)
+
 :six:[Tensorflow](https://www.tensorflow.org/)
+
 :seven:[Docker](https://www.docker.com/resources/what-container)
+
 :eight:[Matplotlib](https://matplotlib.org/)
+
 :nine:[Seaborn](https://seaborn.pydata.org/)
+
 :keycap_ten:[Flask](https://flask.palletsprojects.com/en/1.1.x/)
+
 [Pip](https://pip.pypa.io/en/stable/)
+
 [Jupyter Notebook](https://jupyter.org/documentation)
 
 *Geetha Karthikesan *
