@@ -96,7 +96,8 @@ Once the container is running, access the web service on your localhost at http:
  Still working on it to host.No luck yet.
  
  ## Output models
- ![neural network](Images/neuralnetwork.png)
+ ![polyregression](https://github.com/geetharamson/MLASproject/blob/main/Images/poly.png)
+ ![neuralnetwork](https://github.com/geetharamson/MLASproject/blob/main/Images/Neuralnetwork.png)
  
 Geetha Karthikesan 
 :beginner:
