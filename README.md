@@ -71,6 +71,8 @@ ______________________________________________________________
      python -m venv venv
      .\venv\Scripts\activate.bat
      pip install -r requirements.txt
+     pip install tensorflow
+     pip install silence-tensorflow
      SET FLASK_APP=app
      SET FLASK_ENV=development
      flask run
