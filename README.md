@@ -32,7 +32,7 @@ ___________________________
 + If you wish t run the entire notebook click Kernel in the toolbar at the top of the screen and then click Restart and run all. The notebook will refresh and all code cells will be executed from top to bottom.
 + When you have finished viewing the jupyter notebook close the web browser and return to the command line. Press Ctrl + C on the command line to kill the program.
 ______________________________________________________________
-:file_folder: ## Files in my repository
+## Files in my repository
  
  :open_file_folder:Static    - contains the static page index.html
  
@@ -46,16 +46,31 @@ ______________________________________________________________
                   df.csv     - contains the cleaned dataset
                   app.py     - has the python application to run in virtual environment
                   
-         
+   NB: add venv/ to your .gitignore file after downloading the code.      
  
+ # Prerequiste:
+ - Anaconda distribution of Python
+- Python Software Foundation
+Project Jupyter
+matplotlib: Python plotting library
+NumPy
+SciPy
+Pandas
+Scikit-learn
+PIP
+TensorFlow
+Docker
+Flask
 
+ ## Packages to be imported
+pip install numpy==1.19.3 (Got errors with newer version 1.19.4)
+pip install joblib (For importing scikit-learn learning models)
+pip install tensorflow
 
-:white_check_mark: ## Packages to be imported
-
-
-## Flask server commands
+## Run Flask app from inside a virtual environment
      python -m venv venv
      .\venv\Scripts\activate.bat
+     pip install -r requirements.txt
      SET FLASK_APP=app
      SET FLASK_ENV=development
      flask run
@@ -63,7 +78,22 @@ ______________________________________________________________
  Runs on  http://127.0.0.1:5000/  in the web browser
  To stop flask running :  deactivate    
 
+## To run the application via Docker from the command line:
+  The first step is to build a Docker image - a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. Containers are dependent on images, and use them to construct a run-time environment and run an application. The commands required to build a Docker image are listed in the file Dockerfile in this repository.
 
+    docker build -t model-server . to build a docker image called model-server.
+    docker image ls to list images.
+    docker run -d -p 5000:5000 model-server to create an instance of the image in a container.
+Once the container is running, access the web service on your localhost at http://127.0.0.1:5000/ to get predictions of power output for input wind speeds.
 
+    docker container ls to list containers by ID.
+    docker kill ID to stop a container with given ID
+    docker container ls -a to check that the container is really gone. If not do
+    docker kill ID
+
+### To host the Flask app on eu.pythonanywhere.com
+   Trying to host :link:http://geetharamson.pythonanywhere.com/
+ Still working on it to host.No luck yet
+ 
 Geetha Karthikesan 
 :beginner:
