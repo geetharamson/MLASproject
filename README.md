@@ -32,8 +32,33 @@ ___________________________
 + If you wish t run the entire notebook click Kernel in the toolbar at the top of the screen and then click Restart and run all. The notebook will refresh and all code cells will be executed from top to bottom.
 + When you have finished viewing the jupyter notebook close the web browser and return to the command line. Press Ctrl + C on the command line to kill the program.
 ______________________________________________________________
+:file_folder:## Files in my repository
+ 
+ :open_file_folder:Static    - contains the static page index.html
+ :open_file_folder:Images    - contains all images needed for project.ipynb and graphs generated while predicting models.
+ :open_file_folder:Models    - contains few models predicted 
+         requirements.txt    - contains the packages to run flask 
+             dockerfile      - contains the commandsd needed for dockerfile
+             dataset.csv     - contains the dataset needed for this wind turbine project
+                  df.csv     - contains the cleaned dataset
+                  app.py     - has the python application to run in virtual environment
+                  
+         
+ 
 
 
+:white_check_mark:##Packages to be imported
+
+
+## Flask server commands
+     python -m venv venv
+     .\venv\Scripts\activate.bat
+     SET FLASK_APP=app
+     SET FLASK_ENV=development
+     flask run
+  
+ Runs on  http://127.0.0.1:5000/  in the web browser
+ To stop flask running :  deactivate    
 
 
 
