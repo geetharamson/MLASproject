@@ -49,23 +49,23 @@ ______________________________________________________________
    NB: add venv/ to your .gitignore file after downloading the code.      
  
  # Prerequiste:
- - Anaconda distribution of Python
+- Anaconda distribution of Python
 - Python Software Foundation
-Project Jupyter
-matplotlib: Python plotting library
-NumPy
-SciPy
-Pandas
-Scikit-learn
-PIP
-TensorFlow
-Docker
-Flask
+- Project Jupyter
+- matplotlib: Python plotting library
+- NumPy
+- SciPy
+- Pandas
+- Scikit-learn
+- PIP
+- TensorFlow
+- Docker
+- Flask
 
  ## Packages to be imported
-pip install numpy==1.19.3 (Got errors with newer version 1.19.4)
-pip install joblib (For importing scikit-learn learning models)
-pip install tensorflow
+    pip install numpy==1.19.3 (Got errors with newer version 1.19.4 with Tensorflow)
+    pip install joblib (For importing scikit-learn learning models)
+    pip install tensorflow
 
 ## Run Flask app from inside a virtual environment
      python -m venv venv
@@ -93,7 +93,10 @@ Once the container is running, access the web service on your localhost at http:
 
 ### To host the Flask app on eu.pythonanywhere.com
    Trying to host :link:http://geetharamson.pythonanywhere.com/
- Still working on it to host.No luck yet
+ Still working on it to host.No luck yet.
+ 
+ ## Output models
+ ![neural network](Images/neuralnetwork.png)
  
 Geetha Karthikesan 
 :beginner:
