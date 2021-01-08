@@ -125,9 +125,9 @@ Once the container is running, access the web service on your localhost at http:
 
 :keycap_ten:[Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
-:keycap_eleven:[Pip](https://pip.pypa.io/en/stable/)
+:capital_abcd:[Pip](https://pip.pypa.io/en/stable/)
 
-:keycap_twelve:[Jupyter Notebook](https://jupyter.org/documentation)
+:abcd:[Jupyter Notebook](https://jupyter.org/documentation)
 
 *Geetha Karthikesan*
 :beginner:
