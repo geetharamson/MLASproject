@@ -12,7 +12,7 @@ In this project you must create a web service that uses machine learning to make
 
 ## HOW TO DOWNLOAD THE REPOSITORY
 * Go to GitHub.
-* Go to my repository: [GitHub](https://github.com/geetharamson/MLASproject.git)
+* Go to my repository: [:link:GitHub](https://github.com/geetharamson/MLASproject.git)
 * Click the [`Code`](#code) button which is colored green.
 * Click on HTTPS and copy the link that is shown.
 * Open the command line on your machine, navigate to the directory where you would like to clone the repository down to.
